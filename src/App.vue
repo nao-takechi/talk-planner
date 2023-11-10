@@ -1,11 +1,11 @@
+<script setup lang="ts">
+
+</script>
+
 <template>
   <v-app>
     <v-main>
-      <router-view />
+      <router-view/>
     </v-main>
   </v-app>
 </template>
-
-<style lang="scss">
-// @import url('./assets/css/form.css');
-</style>

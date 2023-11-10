@@ -6,6 +6,9 @@ import path from 'path'
 export default defineConfig({
   plugins: [
     vue(),
+    vuetify({
+      autoImport: true
+    })
   ],
   define: { 'process.env': {} },
   resolve: {
