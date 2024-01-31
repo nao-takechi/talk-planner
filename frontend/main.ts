@@ -8,8 +8,8 @@ import { lineLoginData } from '@/data/LineLoginData'
 import { lineLogin } from '@/modules/LineLogin'
 
 // デバッグ時はコメントアウトを外す
-// import VConsole from 'vconsole';
-// const vConsole = new VConsole();
+import VConsole from 'vconsole';
+const vConsole = new VConsole();
 
 createApp(App)
 .use(router)
