@@ -26,3 +26,4 @@ dist-ssr
 backend/tmp/*
 backend/log/*
 backend/.env
+tmp/*
