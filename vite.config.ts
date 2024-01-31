@@ -13,7 +13,7 @@ export default defineConfig({
   define: { 'process.env': {} },
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, 'src')
+      '@': path.resolve(__dirname, 'frontend')
     }
   },
   server: {
@@ -21,7 +21,7 @@ export default defineConfig({
     port: 8080,
     proxy: {
       '^/api': {
-        target: 'http://192.168.3.3:3000',
+        target: 'http://127.0.0.1:3000',
         changeOrigin: true
       }
     }
